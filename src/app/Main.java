@@ -16,7 +16,7 @@ public class Main {
 
             BuyerDao dao = (BuyerDao) context.getBean("buyerDao");
             dao.insertBuyer(new Buyer("Rostislav", "Lviv"));
-            dao.insertBuyer(new Buyer("Andriy", "Luck"));
+            dao.insertBuyer(new Buyer("Andriy", "Kyiv"));
             System.out.println(dao.getAllBuyers());
             context.close();
 
